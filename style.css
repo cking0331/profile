@@ -56,15 +56,81 @@ body {
     margin-top: 150px;
     padding-bottom: 20px;
 }
-.secondSentence {
-    font-size: 1.5rem;
-}
+
 .secondBg {
     background-color: #C9D1D5 !important;
 }
 .subok {
     background-color: #C9D1D5 !important;
 }
+.pangalawa {
+    display: flex;
+    justify-content: center;
+    grid-column-gap: 150px;
+    background-color: #4DA8C1;
+    margin-top: 120px;
+    padding-top: 100px;
+    padding-bottom: 105px;
+}
+.center {
+    align-content: center;
+    align-items: center;
+    display: grid;
+    font-size: 2rem;
+    width: 30%;
+    z-index: 10;
+    justify-content: center;
+
+}
+.myProfession {
+    font-size: 5rem;
+}
+.hire {
+    border-radius: 20px;
+    background-color: #C9D1D5;
+    padding: 15px;
+    font-size: 1.2rem;
+}
+.download {
+    border-radius: 20px;
+    background-color: #C9D1D5;
+    padding: 15px;
+    font-size: 1.2rem;
+}
+.btn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40px;
+}
+.about {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr;
+    background-color: #C9D1D5;
+    padding-top: 50px;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-bottom: 50px;
+}
+.portfolio {
+    display: grid;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #4DA8C1;
+    background-image: url(/images/Screenshot_2023-03-10_124658-removebg-preview\ 1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.car {
+    padding-top: 50px;
+    background-color: #C9D1D5;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
 @media (max-width: 600px) {
     .resize {
         font-size: 1rem;
@@ -73,16 +139,102 @@ body {
         margin-bottom: 20px;
         text-align: center;
     }
+    .about {
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 1rem;
+    }
     .position {
         font-size: 3rem; 
         margin-bottom: 10px;
     }
-    .custom-shape-divider-bottom-1681400687 {
-        height: 60px;
-        width: 10px;
+    .babaka {
+        display: none;
     }
-    .custom-shape-divider-bottom-1681400687 {
-        width: 50px;
+    .center {
+        font-size: 12px;
+    }
+    .profilePic {
+        width: 175px;
+    }
+    .pangalawa {
+        grid-column-gap: 50px;
+        padding-top: 70px;
+        padding-bottom: 100px;
+    }
+    .myProfession {
+        font-size: 1.5rem;
+    }
+    .wrapper div {
+        height: 30px;
+        width: 30px;  
+    }
+    .div .dot {
+        height: 5px;
+        width: 5px;
+    }
+    .btn {
+        grid-column-gap: 10px;
+        font-size: 13px;
+        line-height: 13px;
+    }
+    .hire {
+        padding: 0;
+        width: 70px;
+        border: none;
+        font-size: .7rem;
+    }
+    .download {
+        padding: 0;
+        width:80px;
+        border: none;
+        font-size: .7rem;
+    }
+    @keyframes animate {
+        0%{
+            transform: scale(0) translateY(0) rotate(70deg);
+        }
+        100% {
+            transform: scale(1.1) translateY(-50px) rotate(360deg);
+        }
+    }
+    .wrapper div:nth-child(2) {
+        display: none;
+    }
+    .wrapper div:nth-child(8) {
+        display: none;
+    }
+    .wrapper div:nth-child(7) {
+        display: none;
+    }
+
+    .wrapper div:nth-child(11) {
+        display: none;
+    }
+    .wrapper div:nth-child(12) {
+        display: none;
+    }
+
+    .wrapper div:nth-child(14) {
+        display: none;
+    }
+    .wrapper div:nth-child(15) {
+        display: none;
+    }
+    .wrapper div:nth-child(16) {
+        display: none;
+    }
+    .wrapper div:nth-child(18) {
+        display: none;
+    }
+    .wrapper div:nth-child(20) {
+        display: none;
+    }
+    .custom-shape-divider-bottom-1681401379 {
+        position: relative;
+    }
+    .custom-shape-divider-bottom-1681401379 svg {
+        height: 0;
     }
 }
 .wrapper div {
