@@ -120,6 +120,7 @@ body {
     background-image: url(/images/Screenshot_2023-03-10_124658-removebg-preview\ 1.png);
     background-size: contain;
     background-repeat: no-repeat;
+    /* margin-bottom: 50px; */
 }
 .car {
     padding-top: 50px;
@@ -384,4 +385,35 @@ div .dot {
 
 .custom-shape-divider-bottom-1681401379 .shape-fill {
     fill: #000000;
+}
+.classProjects {
+    display: flex;
+    justify-content: space-around;
+}
+.cardImage {
+    width: 100%;
+    padding: 20px;
+}
+.card {
+   margin: 20px;
+   background-color: #C9D1D5;
+   /* height: 90%; */
+   justify-content: center;
+   display: flex;
+   align-items: center;
+
+}
+.cardBtn {
+    width: 50%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: #4DA8C1;
+}
+.checkHere {
+    color: aliceblue;
+    text-decoration: none;
+}
+.linkToCV {
+    color: #000000;
+    text-decoration: none;
 }
