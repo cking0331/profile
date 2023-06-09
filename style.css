@@ -93,6 +93,10 @@ body {
     font-size: 1.2rem;
     transition: transform 0.2s;
 }
+.hireFont {
+    color: #212529;
+    text-decoration: none;
+}
 .hire:hover {
     transform: scale(1.1);
     
